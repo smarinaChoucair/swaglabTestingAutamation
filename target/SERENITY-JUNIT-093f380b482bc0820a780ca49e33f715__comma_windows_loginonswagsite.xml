@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Login on SwagLabs website" skipped="0" tests="1" time="7.69" timestamp="2025-01-02 12:46:29"><testcase name="Unsuccessful login on the website by incorrect username"><error message="Step [^he will see the message of (.*) on screen] is defined with 0 parameters at 'com.co.choucair.swag.stepdefinitions.LoginOnSwagSiteStepdefinitions.heWillSeeTheMessageOfErrorOnScreen()'.&#10;However, the gherkin step has 1 arguments:&#10; * error&#10;Step text: he will see the message of error on screen" type="io.cucumber.core.exception.CucumberException">Step [^he will see the message of (.*) on screen] is defined with 0 parameters at 'com.co.choucair.swag.stepdefinitions.LoginOnSwagSiteStepdefinitions.heWillSeeTheMessageOfErrorOnScreen()'.
+However, the gherkin step has 1 arguments:
+ * error
+Step text: he will see the message of error on screen</error><system-err>Step [^he will see the message of (.*) on screen] is defined with 0 parameters at 'com.co.choucair.swag.stepdefinitions.LoginOnSwagSiteStepdefinitions.heWillSeeTheMessageOfErrorOnScreen()'.
+However, the gherkin step has 1 arguments:
+ * error
+Step text: he will see the message of error on screen&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
