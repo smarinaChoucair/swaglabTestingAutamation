@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/LoginOnSwagSite.feature",
         glue = "com.co.choucair.swag.stepdefinitions",
-        //tags = "@HappyPath",
+        //tags = "@UnhappyPath1",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class LoginOnSwagSiteRunner {

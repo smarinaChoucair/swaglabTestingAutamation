@@ -61,10 +61,15 @@ public class LoginOnSwagSiteStepdefinitions {
         );
     }
 
+    @When("attemps to login with no credentials")
+    public void attempsToLoginWithNoCredentials() {
+    }
+
     @Then("^he will see the error message (.*) on screen")
     public void heWillSeeTheMessageOfErrorOnScreen(String error) {
         OnStage.theActorInTheSpotlight().should(
                 GivenWhenThen.seeThat(VerifySuccessfulLogin.login(MSG_ERROR), containsString(error))
         );
     }
+
 }
