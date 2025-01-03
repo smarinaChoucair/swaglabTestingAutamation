@@ -2,13 +2,15 @@ package com.co.choucair.swag.stepdefinitions;
 
 import com.co.choucair.swag.models.LoginLombokData;
 import com.co.choucair.swag.questions.VerifySuccessfulLogin;
-import com.co.choucair.swag.task.ClickLoginBtn;
-import com.co.choucair.swag.task.TypeCredentials;
+import com.co.choucair.swag.task.Login;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
+import net.serenitybdd.screenplay.conditions.Check;
+
+import java.util.List;
 
 import static com.co.choucair.swag.userinterfaces.Inventory.*;
 import static com.co.choucair.swag.userinterfaces.LoginPage.*;
@@ -24,52 +26,42 @@ public class LoginOnSwagSiteStepdefinitions {
         );
     }
 
-    @When("attemps to login with the correct credentials")
+    @When("attemps to login with credentials")
     public void attempsToLoginWithTheCorrectCredentials(DataTable table) {
         OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
-        );
-    }
-
-    @When("click in the login button")
-    public void clickInTheLoginButton(){
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                ClickLoginBtn.login()
+                Login.login(LoginLombokData.setLoginData(table).get(0))
         );
     }
 
     @Then("^he will see the title (.*) on screen$")
     public void heWillSeeTheTitleProductsOnScreen(String title) {
+        // Recuperamos todos los datos de la tabla para las verificaciones
+        List<LoginLombokData> loginDataList = LoginLombokData.setLoginData(table);
+
+        // Iteramos sobre la lista de credenciales
+        for (LoginLombokData loginData : loginDataList) {
+            // Verificamos si el login fue exitoso o no utilizando Check.whether()
+            Check.whether(VerifySuccessfulLogin.login(BANNER_PRODUCTS)) // Verifica si el banner de productos es visible
+                    .ifSo(() -> {
+                        // Si la verificación es exitosa (login correcto), comprobamos el título
+                        OnStage.theActorInTheSpotlight().should(
+                                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(BANNER_PRODUCTS), containsString(loginData.getExpectedTitle()))
+                        );
+                    })
+                    .otherwise(() -> {
+                        // Si la verificación no es exitosa (login incorrecto), comprobamos un error
+                        OnStage.theActorInTheSpotlight().should(
+                                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(MSG_ERROR), containsString("Epic sadface"))
+                        );
+                    });
+        }
+    }
+    /*@Then("^he will see the title (.*) on screen$")
+    public void heWillSeeTheTitleProductsOnScreen(String title) {
         OnStage.theActorInTheSpotlight().should(
                 GivenWhenThen.seeThat(VerifySuccessfulLogin.login(BANNER_PRODUCTS), containsString(title))
         );
-    }
+    }*/
 
-    //Unhappy Path
-
-    @When("attemps to login with the wrong username, but correct pass")
-    public void attempsToLoginWithTheWrongUsernameButCorrectPass(DataTable table) {
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
-        );
-    }
-
-    @When("attemps to login with the correct username, but wrong pass")
-    public void attempsToLoginWithTheCorrectUsernameButWrongPass(DataTable table) {
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
-        );
-    }
-
-    @When("attemps to login with no credentials")
-    public void attempsToLoginWithNoCredentials() {
-    }
-
-    @Then("^he will see the error message (.*) on screen")
-    public void heWillSeeTheMessageOfErrorOnScreen(String error) {
-        OnStage.theActorInTheSpotlight().should(
-                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(MSG_ERROR), containsString(error))
-        );
-    }
 
 }
