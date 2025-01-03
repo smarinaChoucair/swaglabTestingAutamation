@@ -19,4 +19,23 @@ public class VerifySuccessfulLogin implements Question<String> {
     public static Question<String> login(Target element) {
         return new VerifySuccessfulLogin(element);
     }
+
+    /*public void algo(DataTable table) {
+        List<LoginLombokData> loginDataList = LoginLombokData.setLoginData(table);
+
+        for (List<LoginLombokData> data: loginDataList) {
+            Check.whether(login(Target element)) // Verifica si el banner de productos es visible
+                    .ifSo(() -> {
+                        OnStage.theActorInTheSpotlight().should(
+                                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(BANNER_PRODUCTS), containsString(loginData.getExpectedTitle()))
+                        );
+                    })
+                    .otherwise(() -> {
+                        OnStage.theActorInTheSpotlight().should(
+                                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(MSG_ERROR), containsString("Epic sadface"))
+                        );
+                    });
+        }
+    }*/
+
 }
