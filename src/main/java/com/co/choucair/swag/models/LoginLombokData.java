@@ -13,6 +13,10 @@ public class LoginLombokData {
 
     private String user;
     private String pass;
+    private String product;
+    private String firstName;
+    private String lastName;
+    private String postalCode;
 
     public static List<LoginLombokData> setLoginData(DataTable table){
         List<LoginLombokData> data =new ArrayList<>();

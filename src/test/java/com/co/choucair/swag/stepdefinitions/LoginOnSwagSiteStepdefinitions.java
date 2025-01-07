@@ -1,22 +1,31 @@
 package com.co.choucair.swag.stepdefinitions;
 
 import com.co.choucair.swag.models.LoginLombokData;
+import com.co.choucair.swag.questions.ConfirmCartAdition;
+import com.co.choucair.swag.questions.ValidateSuccesfulBuy;
 import com.co.choucair.swag.questions.VerifySuccessfulLogin;
-import com.co.choucair.swag.task.ClickLoginBtn;
-import com.co.choucair.swag.task.TypeCredentials;
+import com.co.choucair.swag.task.AddProductToCart;
+import com.co.choucair.swag.task.ClickToCheckout;
+import com.co.choucair.swag.task.TypeLoginCredentials;
+import com.co.choucair.swag.task.TypePersonalCheckoutInformation;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.*;
-import net.serenitybdd.screenplay.GivenWhenThen;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 
-import static com.co.choucair.swag.userinterfaces.Inventory.*;
-import static com.co.choucair.swag.userinterfaces.LoginPage.*;
+import static com.co.choucair.swag.userinterfaces.Cart.*;
+import static com.co.choucair.swag.userinterfaces.CheckoutOverview.*;
+import static com.co.choucair.swag.userinterfaces.Finish.*;
+import static com.co.choucair.swag.userinterfaces.Products.*;
 import static com.co.choucair.swag.utils.Constantes.*;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.containsString;
 
 public class LoginOnSwagSiteStepdefinitions {
 
+    //@Login
     @Given("that the user was on the website")
     public void thatTheUserWasOnTheWebsite() {
         OnStage.theActorCalled(ACTOR).wasAbleTo(
@@ -27,44 +36,45 @@ public class LoginOnSwagSiteStepdefinitions {
     @When("attemps to login with the correct credentials")
     public void attempsToLoginWithTheCorrectCredentials(DataTable table) {
         OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
-        );
-    }
-
-    @When("click in the login button")
-    public void clickInTheLoginButton(){
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                ClickLoginBtn.login()
+                TypeLoginCredentials.login(LoginLombokData.setLoginData(table).get(0))
         );
     }
 
     @Then("^he will see the title (.*) on screen$")
     public void heWillSeeTheTitleProductsOnScreen(String title) {
         OnStage.theActorInTheSpotlight().should(
-                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(BANNER_PRODUCTS), containsString(title))
+                seeThat(VerifySuccessfulLogin.login(BANNER_PRODUCTS), containsString(title))
         );
     }
 
-    //Unhappy Path
-
-    @When("attemps to login with the wrong username, but correct pass")
-    public void attempsToLoginWithTheWrongUsernameButCorrectPass(DataTable table) {
+    //@Buy
+    @When("^adds some (.*) to the cart$")
+    public void addsSomeProductToTheCart(String product){
         OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
+                AddProductToCart.addToCart()
         );
     }
 
-    @When("attemps to login with the correct username, but wrong pass")
-    public void attempsToLoginWithTheCorrectUsernameButWrongPass(DataTable table) {
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                TypeCredentials.login(LoginLombokData.setLoginData(table).get(0))
-        );
-    }
-
-    @Then("^he will see the error message (.*) on screen")
-    public void heWillSeeTheMessageOfErrorOnScreen(String error) {
+    @When("^checks that exactly (.*) is on the cart$")
+    public void checksThatExactlyProductIsOnTheCart(){
         OnStage.theActorInTheSpotlight().should(
-                GivenWhenThen.seeThat(VerifySuccessfulLogin.login(MSG_ERROR), containsString(error))
+            seeThat(ConfirmCartAdition.confirmAdition(SELECTED_PRODUCT_NAME_CART), containsString((PRODUCTO)))
+        );
+        OnStage.theActorInTheSpotlight().attemptsTo(
+                ClickToCheckout.toCheckout()
         );
     }
+
+    @When("fills the checkout personal information fields")
+    public void fillsTheCheckoutPersonalInformationFields(DataTable table){
+        OnStage.theActorInTheSpotlight().attemptsTo(
+                TypePersonalCheckoutInformation.TypeCheckoutInfo(LoginLombokData.setLoginData(table).get(0))
+        );
+    }
+
+    @Then("^he will see the title (.*) on screen$")
+    public void heWillSeeTheTitleMessageOnScreen(String message){
+        seeThat(ValidateSuccesfulBuy.validateBuy(CONFIRMATION_TITLE),containsString(message));
+    }
+
 }

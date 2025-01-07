@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/LoginOnSwagSite.feature",
+        features = "src/test/resources/features/buyOnSwag.feature",
         glue = "com.co.choucair.swag.stepdefinitions",
-        //tags = "@HappyPath",
+        //tags = "@E2E",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class LoginOnSwagSiteRunner {
+public class BuyOnSwagRunner {
 }

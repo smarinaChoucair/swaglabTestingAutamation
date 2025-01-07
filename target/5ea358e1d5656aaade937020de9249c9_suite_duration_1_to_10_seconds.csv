@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login on SwagLabs website","Successful login on the website","SUCCESS","2025-01-02T13:26:36.4468468-05:00[America/Bogota]","0.0","9.32"
+"Login on SwagLabs website","Unsuccessful login on the website by incorrect username","SUCCESS","2025-01-03T15:48:27.6742152-05:00[America/Bogota]","0.0","8.05"
+"Login on SwagLabs website","Unsuccessful login on the website by incorrect password","SUCCESS","2025-01-03T15:48:35.7949336-05:00[America/Bogota]","0.0","6.46"
