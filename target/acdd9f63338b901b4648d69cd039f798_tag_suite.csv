@@ -2,3 +2,6 @@
 "Login on SwagLabs website","Successful login on the website","SUCCESS","2025-01-03T15:48:07.9961785-05:00[America/Bogota]","0.0","19.55"
 "Login on SwagLabs website","Unsuccessful login on the website by incorrect username","SUCCESS","2025-01-03T15:48:27.6742152-05:00[America/Bogota]","0.0","8.05"
 "Login on SwagLabs website","Unsuccessful login on the website by incorrect password","SUCCESS","2025-01-03T15:48:35.7949336-05:00[America/Bogota]","0.0","6.46"
+"Buy on SwagLabs Website","Successful purchase on the website","ERROR","2025-01-07T20:48:12.050169-05:00[America/Bogota]","0.0","1.52"
+"Buy on SwagLabs Website","Successful login on the website","SUCCESS","2025-01-07T20:58:37.8754411-05:00[America/Bogota]","0.0","10.61"
+"Buy on SwagLabs Website","Successful purchase on the website","SUCCESS","2025-01-07T21:25:13.5569156-05:00[America/Bogota]","0.0","30.33"

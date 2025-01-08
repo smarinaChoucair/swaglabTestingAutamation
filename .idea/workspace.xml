@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04c1f4e5-91ad-49b6-a4ae-5a23bfbb2355" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/models/LoginLombokData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/models/LoginLombokData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/questions/ConfirmCartAdition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/questions/ConfirmCheckoutOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/questions/ConfirmCheckoutOverview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/task/AddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/task/AddProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/task/ClickToCheckout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/task/TypePersonalCheckoutInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/task/TypePersonalCheckoutInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/utils/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/co/choucair/swag/utils/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/co/choucair/swag/stepdefinitions/LoginOnSwagSiteStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/co/choucair/swag/stepdefinitions/LoginOnSwagSiteStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/buyOnSwag.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buyOnSwag.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/02ff5f884370ea9973723af6a249ce9f_context_windows_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/02ff5f884370ea9973723af6a249ce9f_context_windows_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/08b4d1a9a90a18c2ba2fb62c4997c019__1_to_10_seconds_result_broken.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/08b4d1a9a90a18c2ba2fb62c4997c019__1_to_10_seconds_result_broken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/0b9334f0a24e1a1a2e951c68ed5acece_hrome_c__windows_result_broken.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/0b9334f0a24e1a1a2e951c68ed5acece_hrome_c__windows_result_broken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1023728f6d7ebc3e2cf351f2460f406f_rome_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/1023728f6d7ebc3e2cf351f2460f406f_rome_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1080598f9e736053572843fc7e6184e6_hrome_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/1080598f9e736053572843fc7e6184e6_hrome_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/10d13b080ed4bbf6285c5a6614bdc043_ntext_cl_chrome_result_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/10d13b080ed4bbf6285c5a6614bdc043_ntext_cl_chrome_result_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/12e36c9c631c2404b23d787b06762c9f_uite_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/12e36c9c631c2404b23d787b06762c9f_uite_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1e31988b1953dd1553648f25fe58ec15_second_duration_under_1_second.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/1e31988b1953dd1553648f25fe58ec15_second_duration_under_1_second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1ff6d6e00444ec6373a570698b3a3ccd_ndows_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/1ff6d6e00444ec6373a570698b3a3ccd_ndows_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/210467120acbdbca347671b5bf571a2d_tag_happypath.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/210467120acbdbca347671b5bf571a2d_tag_happypath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2152c49d49ff2bffe2ed762b0023cec5_ogin_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/2152c49d49ff2bffe2ed762b0023cec5_ogin_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/24c102630cf92ad4de6fb891004eb0fa_rome_c__windows_result_failure.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/24c102630cf92ad4de6fb891004eb0fa_rome_c__windows_result_failure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2a6ce690b75755aec2bee00911cc77d2_xt_tag_cl_login_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/2a6ce690b75755aec2bee00911cc77d2_xt_tag_cl_login_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2abae08e34f67a2e625735ece6dfe085_dows_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/2abae08e34f67a2e625735ece6dfe085_dows_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2b95d3c499e85c90485b2c1154f302e0_rome_c__windows_result_pending.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/2b95d3c499e85c90485b2c1154f302e0_rome_c__windows_result_pending.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/2edc4d6b236ebbc7a88b392d7177ee2b_l_1_to_10_seconds_result_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/2edc4d6b236ebbc7a88b392d7177ee2b_l_1_to_10_seconds_result_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/32827375f1bafe41cfcaf01fbb3340c2_rome_c__windows_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/32827375f1bafe41cfcaf01fbb3340c2_rome_c__windows_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/350125a813d1b293c75db2bd7a2cbed2_result_broken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/350125a813d1b293c75db2bd7a2cbed2_result_broken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/350125a813d1b293c75db2bd7a2cbed2_result_broken.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/350125a813d1b293c75db2bd7a2cbed2_result_broken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3d097e02d12dca0b12d796e2b65ea859_ypath_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/3d097e02d12dca0b12d796e2b65ea859_ypath_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3d4ca96b5e06fa60fd1e597ad196dfb3_tag_login.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/3d4ca96b5e06fa60fd1e597ad196dfb3_tag_login.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3d4ca96b5e06fa60fd1e597ad196dfb3_tag_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/3d4ca96b5e06fa60fd1e597ad196dfb3_tag_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/47e1d2a6b19d8f6108b358a05c981e4f_ndows_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/47e1d2a6b19d8f6108b358a05c981e4f_ndows_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4855a492b66eff2fe34f05e7b1bad1ed_context_windows_result_failure.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/4855a492b66eff2fe34f05e7b1bad1ed_context_windows_result_failure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/4e6ae283ee093c62fc907ac936ab54a4_rome_c__windows_result_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/4e6ae283ee093c62fc907ac936ab54a4_rome_c__windows_result_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/550f45cf6669d07f099292b9e8b92db2_indows_duration_under_1_second.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/550f45cf6669d07f099292b9e8b92db2_indows_duration_under_1_second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5ea358e1d5656aaade937020de9249c9_suite_duration_1_to_10_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/5ea358e1d5656aaade937020de9249c9_suite_duration_1_to_10_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/5ff86d3fc00c8b4d8df269f1f5a1f85e_rome_c__windows_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/5ff86d3fc00c8b4d8df269f1f5a1f85e_rome_c__windows_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/670fbe114e24225cda6a32edac5dce6f_tag_unhappypath.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/670fbe114e24225cda6a32edac5dce6f_tag_unhappypath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/67d2c519bd73bf73863114e00b7a97aa_ag_cl_happypath_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/67d2c519bd73bf73863114e00b7a97aa_ag_cl_happypath_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6807ece8ca5bba49df941a01330c2b14_context_windows_result_error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/6807ece8ca5bba49df941a01330c2b14_context_windows_result_error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/69725a97cff6c2432b747d90d140f4a0_context_chrome_result_pending.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/69725a97cff6c2432b747d90d140f4a0_context_chrome_result_pending.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6e616c686fa7aa3cbbd24b1fe2d2560d_dows_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/6e616c686fa7aa3cbbd24b1fe2d2560d_dows_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/70f03084f08004d4f443a8ed73ee8481_chrome_c__windows_result_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/70f03084f08004d4f443a8ed73ee8481_chrome_c__windows_result_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/72666746bfda2c45e1b67aaec7a4c55f_ntext_cl_chrome_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/72666746bfda2c45e1b67aaec7a4c55f_ntext_cl_chrome_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/742ff2d7bebc163a58318547307573b7_1_to_10_seconds_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/742ff2d7bebc163a58318547307573b7_1_to_10_seconds_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7b08cfe59a66a7acaf69e442843c1024_onds_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/7b08cfe59a66a7acaf69e442843c1024_onds_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7ef8b1b5856856cb3f7b1d9cc384d9f1_ontext_cl_chrome_result_broken.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/7ef8b1b5856856cb3f7b1d9cc384d9f1_ontext_cl_chrome_result_broken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7f72b670747c4441e93d02223d14fe08_duration_1_to_10_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/7f72b670747c4441e93d02223d14fe08_duration_1_to_10_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/7f72b670747c4441e93d02223d14fe08_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/7f72b670747c4441e93d02223d14fe08_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/8132617dac91d0806699cec5ac961441_path_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/8132617dac91d0806699cec5ac961441_path_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/8488fe8c90f581bce229d2509503edb0_ontext_cl_windows_result_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/8488fe8c90f581bce229d2509503edb0_ontext_cl_windows_result_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/87fe8be1e72ba1a257989adcb3f705be_result_error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/87fe8be1e72ba1a257989adcb3f705be_result_error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/87fe8be1e72ba1a257989adcb3f705be_result_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/87fe8be1e72ba1a257989adcb3f705be_result_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/8a8f1362b9e050988cfc3842d629d481_rome_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/8a8f1362b9e050988cfc3842d629d481_rome_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/8d0523b160ae894803a16a5c84fb4273_chrome_c__windows_result_error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/8d0523b160ae894803a16a5c84fb4273_chrome_c__windows_result_error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/8dfd1d7cef78e33c13dc49383aa01707_ogin_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/8dfd1d7cef78e33c13dc49383aa01707_ogin_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/90be2d8829f70701deec6de6355a9af6_conds_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/90be2d8829f70701deec6de6355a9af6_conds_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/953d4a01a6f5306df6756be93bbc9deb_duration_under_1_second.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/953d4a01a6f5306df6756be93bbc9deb_duration_under_1_second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/95d6175238633a59a95b9dd2099504cd_0_to_30_seconds_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/95d6175238633a59a95b9dd2099504cd_0_to_30_seconds_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/97433754056312775ea40d1de9e9333f_uite_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/97433754056312775ea40d1de9e9333f_uite_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/9d96cdc5edb794ebba0f47af7a2f18c0_xt_tag_cl_suite_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/9d96cdc5edb794ebba0f47af7a2f18c0_xt_tag_cl_suite_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/a052e1ada1ea75ee990b658a014cd85c_hrome_c__windows_result_broken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/a052e1ada1ea75ee990b658a014cd85c_hrome_c__windows_result_broken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/a3547388dc009743670fe7a967a302d1_ntext_cl_windows_result_broken.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/a3547388dc009743670fe7a967a302d1_ntext_cl_windows_result_broken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/a396efb27cdfe5a722be3d67da3e0319_context_windows.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/a396efb27cdfe5a722be3d67da3e0319_context_windows.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/a396efb27cdfe5a722be3d67da3e0319_context_windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/a396efb27cdfe5a722be3d67da3e0319_context_windows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/a456e71901ca8eb5e548f0f9d29fc516_text_cl_windows_result_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/a456e71901ca8eb5e548f0f9d29fc516_text_cl_windows_result_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aa486cc94c927acb4fd8b3af29504a4b_onds_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/aa486cc94c927acb4fd8b3af29504a4b_onds_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/aa91a8edb362b090ec9c9c5be15c4224_conds_duration_1_to_10_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/aa91a8edb362b090ec9c9c5be15c4224_conds_duration_1_to_10_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/acdd9f63338b901b4648d69cd039f798_tag_suite.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/acdd9f63338b901b4648d69cd039f798_tag_suite.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/acdd9f63338b901b4648d69cd039f798_tag_suite.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/acdd9f63338b901b4648d69cd039f798_tag_suite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ad1a6818e2feccffd0e66cca046de803_context_chrome_result_failure.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/ad1a6818e2feccffd0e66cca046de803_context_chrome_result_failure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/b2252a651dd7122f08686faa27ab34d5__1_to_10_seconds_result_broken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/b2252a651dd7122f08686faa27ab34d5__1_to_10_seconds_result_broken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/b587a0a9274f8b6e3d8e0bb0ae8cb9bf_context_chrome.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/b587a0a9274f8b6e3d8e0bb0ae8cb9bf_context_chrome.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/b587a0a9274f8b6e3d8e0bb0ae8cb9bf_context_chrome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/b587a0a9274f8b6e3d8e0bb0ae8cb9bf_context_chrome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ba5b189d401a9b06cfab769cb39abd24_context_cl_chrome_result_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ba5b189d401a9b06cfab769cb39abd24_context_cl_chrome_result_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bbd4b145bf64ca057c78fc3f95377a79_0_to_30_seconds_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/bbd4b145bf64ca057c78fc3f95377a79_0_to_30_seconds_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bce350e083ff9d04f665f886d29f1448_dows_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/bce350e083ff9d04f665f886d29f1448_dows_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bd4d291c6e2282876eb0103ed5c7bed6_context_suite_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/bd4d291c6e2282876eb0103ed5c7bed6_context_suite_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bf9fb8aa88872f4d9b61df4bca8f0416_context_chrome_result_broken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/bf9fb8aa88872f4d9b61df4bca8f0416_context_chrome_result_broken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/c29e22d351ad978e92985b0afdc2ee6e_login_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/c29e22d351ad978e92985b0afdc2ee6e_login_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/c4ecf9f5bb94e514a7778d5d39ca9c74_ntext_cl_chrome_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/c4ecf9f5bb94e514a7778d5d39ca9c74_ntext_cl_chrome_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/c52edf42b5d29831e8f8516412b4267d__cl_unhappypath_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/c52edf42b5d29831e8f8516412b4267d__cl_unhappypath_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/c9d770c9ffad2e9adc723a21a8175b62_pypath_duration_under_1_second.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/c9d770c9ffad2e9adc723a21a8175b62_pypath_duration_under_1_second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ca5d5cb81f159e3f4fc0134fc7846304_dows_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ca5d5cb81f159e3f4fc0134fc7846304_dows_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cafe19d54a30ccc1f40dad7b4045e722_ag_cl_happypath_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cafe19d54a30ccc1f40dad7b4045e722_ag_cl_happypath_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ce81faa7993810e83b16bc3457e28b78_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/ce81faa7993810e83b16bc3457e28b78_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ce81faa7993810e83b16bc3457e28b78_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ce81faa7993810e83b16bc3457e28b78_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/d3e9509d81a61aef672cbeb696b9ea5f_context_windows_result_broken.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/d3e9509d81a61aef672cbeb696b9ea5f_context_windows_result_broken.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/d6208b144f19fcc661e0aa5bca84b239_context_chrome_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/d6208b144f19fcc661e0aa5bca84b239_context_chrome_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/d782c44557441225cc92a5e35bf4b23b_requirement_type_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/d782c44557441225cc92a5e35bf4b23b_requirement_type_feature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/df1fc12720a448edacde11f8dbcf9dc0_text_cl_windows_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/df1fc12720a448edacde11f8dbcf9dc0_text_cl_windows_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/e0a22b5d57e669971276b4e3765dd42e_text_cl_windows_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/e0a22b5d57e669971276b4e3765dd42e_text_cl_windows_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/e3c988cc8691861b10cff74fe45e5e2c_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/e3c988cc8691861b10cff74fe45e5e2c_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/e4295ac1bd7f838accf975dc8cef1a22_rome_c__windows_result_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/e4295ac1bd7f838accf975dc8cef1a22_rome_c__windows_result_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/e54337ba32bd5d52b2c4a3afe4819b97_context_chrome_c__windows.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/e54337ba32bd5d52b2c4a3afe4819b97_context_chrome_c__windows.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/e54337ba32bd5d52b2c4a3afe4819b97_context_chrome_c__windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/e54337ba32bd5d52b2c4a3afe4819b97_context_chrome_c__windows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f0249e992ddf0c9c675fe3545a000ee7_context_chrome_result_error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/f0249e992ddf0c9c675fe3545a000ee7_context_chrome_result_error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f03a6b8a5871198ee51805b5afc66a89_context_login_result_success.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/f03a6b8a5871198ee51805b5afc66a89_context_login_result_success.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f1973810cd3b9886706e54d7fc68ec0c_suite_duration_1_to_10_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/f1973810cd3b9886706e54d7fc68ec0c_suite_duration_1_to_10_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f4bfe10ad76acaea03f39cc8abe136d8_duration_10_to_30_seconds.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/f4bfe10ad76acaea03f39cc8abe136d8_duration_10_to_30_seconds.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f4bfe10ad76acaea03f39cc8abe136d8_duration_10_to_30_seconds.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/f4bfe10ad76acaea03f39cc8abe136d8_duration_10_to_30_seconds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f55886a9c59a9021c238668d4e9442fc__under_1_second_result_pending.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/f55886a9c59a9021c238668d4e9442fc__under_1_second_result_pending.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/f8b71951e5898a2fa396d3bf98bd357e_t_1_to_10_seconds_result_error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/f8b71951e5898a2fa396d3bf98bd357e_t_1_to_10_seconds_result_error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/faaffdf937831643888d226b166ca3b8_result_failure.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/faaffdf937831643888d226b166ca3b8_result_failure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/faaffdf937831643888d226b166ca3b8_result_failure.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/faaffdf937831643888d226b166ca3b8_result_failure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/summary.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SwagScreenplay" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2r4uYEgNRZRNRXRKEp0I7dSkPDf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build SwagScreenplay.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BuyOnSwagRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginOnSwagSiteRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop__0.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/smarina/Documents/SwagLabs_POM y Screenplay/SwagScreenplay&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/smarina/Documents/SwagLabs_POM y Screenplay/SwagScreenplay/src/main/java/org/example/Main.java&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.BuyOnSwagRunner">
+    <configuration name="BuyOnSwagRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.co.choucair.swag.runners.BuyOnSwagRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginOnSwagSiteRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.co.choucair.swag.runners.LoginOnSwagSiteRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BuyOnSwagRunner" />
+        <item itemvalue="Gradle.LoginOnSwagSiteRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c1f4e5-91ad-49b6-a4ae-5a23bfbb2355" name="Changes" comment="" />
+      <created>1735830715908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735830715908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
