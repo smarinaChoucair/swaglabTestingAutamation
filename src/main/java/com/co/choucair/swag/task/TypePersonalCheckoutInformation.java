@@ -6,11 +6,8 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.ensure.Ensure;
 
 import static com.co.choucair.swag.userinterfaces.CheckoutInfo.*;
-import static com.co.choucair.swag.userinterfaces.CheckoutOverview.*;
-import static com.co.choucair.swag.utils.Constantes.PRODUCT_NAME_COMPARATOR;
 
 public class TypePersonalCheckoutInformation implements Task {
 

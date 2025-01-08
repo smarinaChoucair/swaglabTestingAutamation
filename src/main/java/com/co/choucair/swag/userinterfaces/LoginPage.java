@@ -10,7 +10,5 @@ public class LoginPage {
             .locatedBy("//input[@id=\"password\"]");
     public static final Target BTN_LOGIN = Target.the("button to login")
             .locatedBy("//input[@id=\"login-button\"]");
-    public static final Target MSG_ERROR = Target.the("error message")
-            .locatedBy("//h3[contains(text(), \"Epic sadface\")]");
 
 }
